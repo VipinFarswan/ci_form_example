@@ -10,7 +10,7 @@
       <div class="text-success text-center"> <?php echo $this->session->flashdata('successMessage'); ?></div>
       <div class="text-center"><a href="form" class="btn btn-primary">Fill Form Again</a></div>
     <?php } else { ?>
-    <?php echo form_open('/getForm',array('onsubmit' => 'vaidateData()') ); ?>
+    <?php echo form_open('/getForm'); ?>
       <div class="form-group">
         <label for="email">Email address</label>
         <input type="email" class="form-control" name="email" placeholder="Enter email" value="<?php echo set_value('email'); ?>" id="email">
@@ -22,9 +22,9 @@
         <input type="password" class="form-control" name="password" placeholder="Password" id="password">
         <span class="text-danger"><?php echo form_error('password'); ?></span>
       </div>
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      <div class="form-group">
+        <label for="number">Contact Number</label>
+        <input type="number" class="form-control" name="password" placeholder="Number(Optional)" id="number">
       </div>
       <button type="submit" class="btn btn-primary mt-1">Submit</button>
     <?php echo form_close(); } ?>

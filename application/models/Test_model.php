@@ -14,6 +14,9 @@ class Test_model extends CI_model
 	{
 		echo "GetData Call";
 	}
+	public function setData() {
+		echo "setData Call";
+	}
 
 
 }

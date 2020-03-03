@@ -7,7 +7,7 @@ class Test_model extends CI_model
 
 	public function __construct() 
 	{
-		echo "Constructer Call";
+		//echo "Constructer Call";
 	}
 
 	public function getData() 

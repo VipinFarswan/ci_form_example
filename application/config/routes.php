@@ -53,3 +53,5 @@ $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 $route['home'] = 'Test_controlller/index';
+$route['form'] = 'Test_controlller/setForm';
+$route['getForm'] = 'Test_controlller/getForm';

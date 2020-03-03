@@ -24,7 +24,7 @@
       </div>
       <div class="form-group">
         <label for="number">Contact Number</label>
-        <input type="number" class="form-control" name="password" placeholder="Number(Optional)" id="number">
+        <input type="number" class="form-control" name="number" placeholder="Number(Optional)" id="number">
       </div>
       <button type="submit" class="btn btn-primary mt-1">Submit</button>
     <?php echo form_close(); } ?>

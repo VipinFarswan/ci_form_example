@@ -17,7 +17,7 @@ class Test_controlller extends CI_Controller
 		echo "<br>";
 		echo "Welcome to CI";
 		echo "<br>";
-		//$this->Test_model->getData();
+		$this->Test_model->getData();
 	}
 	public function getForm() 
 	{
